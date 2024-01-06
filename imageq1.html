@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        fieldset{
+            width:300px;
+            height: auto;
+        }
+    </style>
+   
+
+</head>
+<body>
+    
+   <h2>Sign UP</h2>
+
+        <form>
+            <fieldset width="100px">
+            <legend>1 Your Basic Info</legend>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br>
+            <label for="Password">Password:</label>
+            <input type="password" id="pswd" name="pswd"><br>
+            <label for="age">Age:</label> <br>
+            <input type="radio" id="age" value="Under 13">:Under 13<br>
+            <input type="radio" id="age" value="Over 13">Over 13
+           </fieldset>
+    
+<br>
+      
+            <fieldset>
+            <legend>1 Your Profile</legend>
+            <label for="bio">Bio:</label>
+           <textarea name="bio" id="bio" cols="30" rows="5"></textarea>
+           <br>
+            <label for="role">Job Role:</label>
+            <select name="role">
+                <option>Front end Developer</option>
+              </select>
+              <br>
+       <label for="checkbox">Interests:</label><br>
+           
+   <input type="checkbox" id="dev">
+  <label for="dev">Development </label><br>
+  
+  <input type="checkbox" id="design">
+  <label for="design">Design</label><br>
+
+  <input type="checkbox" id="business">
+  <label for="business">Business</label>
+           </fieldset>
+
+<br>
+<br>
+        <button>Signup</button>
+        </form>
+   
+</body>
+</html>

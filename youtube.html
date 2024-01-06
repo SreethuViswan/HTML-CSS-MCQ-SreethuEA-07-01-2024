@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.topnav {
+  overflow: hidden;
+  background-color: white;
+}
+
+.topnav .search-container {
+  float: right;
+  padding-top: 25px;
+}
+
+
+
+.item1 { grid-area: menu; }
+
+
+.item2 { grid-area: footer; }
+
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    
+
+    'menu footer footer footer footer footer';
+
+  background-color:white;
+  padding: 10px;
+  gap:20px;
+}
+
+.grid-container > div {
+  background-color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 20px;
+  width: 200px;
+  background-color:white;
+
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 18px;
+  text-align: left;
+}
+
+.d1 {
+    background:white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.d1 ul{
+    font-size: 18px;
+}
+
+#rec{
+    font-size: 20px;
+    text-align: left;
+}
+
+
+</style>
+</head>
+<body> 
+
+    <div class="topnav">
+        <img src="images/horozon3.png" alt="" height="40px" >
+      <img src="images/logo.png" alt="" height="100px" width="200px">
+      <div class="search-container">
+        <form>
+          <input type="text" placeholder="Search.." name="search">
+          <img src="images/search.png" alt="" height="30px">
+          <img src="images/videologo.png" alt="" height="30px">
+          <img src="images/3dot.jpg" alt="" height="30px">
+          <img src="images/bell.jpg" alt="" height="30px">
+          <img src="images/contactlogo.png" alt="" height="30px">
+          
+        </form>
+      </div>
+
+<div class="grid-container">
+
+
+  
+  <div class="item1">
+    <ul >
+        <li style="font-size:20px"><a href="#home"><img src="images/home.jpg" alt="" width="30px">Home</a></li>
+        
+        <li><a href="#"><img src="images/trending.png" alt="" width="30px">Trending</a></li>
+        <li><a href="#"><img src="images/subscription.png" alt="" width="30px">Subcriptions</a></li>
+        
+      </ul>
+    
+    <br>
+    
+    
+      
+    
+    
+    
+    <ul>
+        <li><a href="#"><img src="images/library.png" alt="" width="30px">Library</a></li>
+        <li><a href="#"><img src="images/history.png" alt="" width="30px">History</a></li>
+        <li><a href="#"><img src="images/yourvideo.png" alt="" width="30px">Your Videos</a></li>
+        <li><a href="#"><img src="images/watchlater.png" alt="" width="30px">Watch Later</a></li>
+        <li><a href="#"><img src="images/likesd.png" alt="" width="30px">Liked Videos</a></li>
+      </ul>
+
+  </div>
+  
+
+  <div class="item2">
+       
+        <h4 id="rec">Recommended</h4>  
+
+        <div class="d1">
+        <ul class="ul">
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/BsDoLVMnmZs?si=naqggcDsZOis3K5d" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h4>HTML Tutorial For Beginners(With Notes)</h4>
+        <p>#HarryBhai</p>
+        <p>11M views 2 years ago</p>
+    
+    </ul>
+    
+    <ul class="ul">
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/Nc9NmS5kEjU?si=EMeg9CDg6cT57dLK" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h4>Spring Boot JDBC using JdbcTemplate</h4>
+        <p>#Telusko</p>
+        <p>19k views 3 week ago</p>
+    
+    
+    </ul class="ul">
+    
+    <ul>
+        <iframe width="200" height="200" src="https://www.youtube.com/embed/w2z7BMr4MY0?si=FUj6BTWbpdWMGts6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <h4>CSS Tutorial for Beginners in 2023</h4>
+        <p>Great Learning</p>
+        <p>196k views 1 years ago</p>
+    
+    
+    </ul>
+    
+        </div>
+
+
+        <br>
+        <div class="d1">
+       <ul>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/fX64q6sYom0?si=yfzIkhA0bbdumrHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Solve any Star Pattern program in Python</h4>
+            <p>Simply Coding</p>
+            <p>720k views 5 month ago</p>
+    
+        
+        </ul>
+        
+        <ul>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/APWy6Pc83gE?si=ZyHMzNiQiPfrLAZD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>Nested loops in Python are easy </h4>
+            <p>Bro Code</p>
+            <p>178k views 1 years ago</p>
+        
+        </ul>
+        
+        <ul>
+            <iframe width="200" height="200" src="https://www.youtube.com/embed/k4R7FwL2XYA?si=ZqA2ZAq4drNMH0h9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h4>For Loop in Python | Python Tutorials</h4>
+        <p>Jenny's Lectures CS</p>
+        <p>83K views  9 months ago </p>
+    
+        </ul>
+            </div>
+              
+
+            <br>
+            <div class="d1">
+                <ul>
+                    <iframe width="200" height="200" src="https://www.youtube.com/embed/MLqHDsBOC4c?si=SZtuGFvJ0r_naNyL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h4>Data Structures and Algorithms in Python</h4>
+        <p>Great Learning</p>
+        <p>228k views 2 years ago</p>
+    
+            
+            </ul>
+            
+            <ul>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/QXeEoD0pB3E?si=-WTznP5Xnl8DxU09" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h4>#0 Python for Beginners | Programming Tutorial</h4>
+               <p>#Telusko</p>
+              <p>7M views  5 years ago</p>
+    
+            </ul>
+            
+            <ul>
+                <iframe width="200" height="200" src="https://www.youtube.com/embed/kJEsTjH5mVg?si=kZYp7ME5jjALPdEJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                <h4>Your First HTML Website</h4>
+        <p>#HarryBhai</p>
+        <p>436k views  3 months ago</p>
+    
+            
+            </ul>
+            
+                </div>
+  </div>
+</div>
+
+</body>
+</html>
+
+

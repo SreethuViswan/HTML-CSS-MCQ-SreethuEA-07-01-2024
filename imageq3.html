@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            color:green;
+        }
+    </style>
+</head>
+<body>
+    
+    <body>
+        <h3>* These fields are required</h3>
+        <table border="none" align="left" > 
+             <tr>
+                <th bgcolor="lightgrey" colspan="2">
+                   <h2 align="center"> Create Account</h2>
+               
+            </tr>
+              
+              
+               <tr> <td style="border:none;">
+                    <label for="fname">First Name*</label>     
+                    
+                    
+                   </td>
+                   <td  style="border:none;">
+                    <label for="lname">Last Name</label>
+                    
+                   </td> </tr>
+           
+                   <tr> <td>
+                    <input type="text" id="fname" name="fname" placeholder="enter your first name" style="border: none;">   
+                    
+                    
+                   </td>
+                   <td>
+                    <input type="text" id="lname" name="lname" placeholder="enter your last name" style="border: none;">
+                    
+                   </td> </tr>
+
+                   <tr>
+                    <td colspan="2" style="border: none;">
+                    
+                        <label for="mail">Email*</label>
+                    </td>
+                  </tr>    
+                  <tr>
+                    <td colspan="2" >
+                        <input type="text" name="mail" id="mail" placeholder="enter your email" style="border:none">
+                   
+                   
+                </tr>
+
+
+               <tr>
+                   <td  style="border: none;"> <label for="Password">Password :*</label> </td>
+                   <td  style="border: none;"> <label for="CPassword">Confirm Password :*</label></td>
+                 </tr>
+                <tr>
+                   <td > <input type="password" name="Password" id="password" required placeholder=" enter your Password" style="border: none;"></td>
+                   <td > <input type="password" name="CPassword" id="cpassword" required placeholder="enter your Password" style="border: none;"></td>
+               </tr>
+    
+
+               <tr>
+                <td style="border: none;">
+                 
+                    <label for="Gender">Gender</label> </td>
+                
+
+                    <td style="border: none;">
+                 
+                        <label for="hobbie">Hobbies</label> </td>
+                    <td>
+                </tr>
+                   <tr>
+                    <td style="border: none;">
+                   <input type="radio" name="Gender"> Male
+                    <input type="radio" name="Gender"> Female
+                </td>
+
+                <td style="border: none;">
+                    <input type="radio" name="hobbie"> Music
+                    <input type="radio" name="hobbie"> Sports
+                    <input type="radio" name="hobbie"> Travel
+                    <input type="radio" name="hobbie"> Movies
+                </td>
+            </tr>
+              
+            <tr> <td style="border:none;">
+                <label for="sic">Source of income</label>     
+                </td>
+               <td  style="border:none;">
+                <label for="lname">Income</label>
+                
+               </td> 
+            </tr>
+
+
+
+            <tr>
+                <td >
+                    <select name="sic" id=""  style="border:none">
+                        <option value="" >Employed</option>
+                </td>
+
+                <td><input type="range" min="" max=""> <button style="background-color:green">20k</button></td>
+            </tr>
+
+            
+            <tr> <td style="border:none;">
+                <label for="upload">Upload profile picture</label>     
+                </td>
+               <td  style="border:none;">
+                <label for="age">Age</label>
+                
+               </td> 
+            </tr>
+
+
+            <tr> 
+                <td style="border: none;"> <input type="file" name="flinp" ></td>
+                <td style="border: none;"><input type="number" name="age" placeholder="18"></td>
+            </tr>
+           
+    
+        
+               <tr>
+                <td colspan="2">Bio
+                    <br>
+                   <textarea name="bio" id="" cols="100" rows="5"></textarea>
+               </tr>
+               <tr  bgcolor="lightgrey" height="50">
+                <td style="border: none;"></td>
+                <td style="border: none; text-align: right;" >
+                 
+                    <button style="background-color:green"> Create</button></td>
+               </tr>
+    
+    
+           </table>
+</body>
+</html>
